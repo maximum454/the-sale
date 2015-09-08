@@ -7,6 +7,7 @@
 	<title>Петрит</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal-0.3.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -123,8 +124,8 @@ Yandex.Metrika counter
 				Руководитель <nobr>ТОО &laquo;Петрит&raquo;</nobr></p>
 			</div>
 
-			<div class="arrow">
-				<img src="i/arrow.png" alt="">	
+			<div class="arrow wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms">
+				<a href="#step1"><img src="i/arrow.png" alt=""></a>	
 			</div>
 		</header>
 
@@ -673,6 +674,24 @@ Yandex.Metrika counter
 	<script src="js/jquery.bxslider.min.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
+	 <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </body>
 </html>

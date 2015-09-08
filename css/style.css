@@ -7,8 +7,8 @@
 ===============================================================================================*/
 
 /* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
+HTML5 display definitions
+========================================================================== */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -17,9 +17,9 @@ audio:not([controls]) { display: none; }
 
 
 input, textarea, select {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
+font-family: inherit;
+font-size: inherit;
+font-weight: inherit;
 }
 
 figure { margin: 0; }
@@ -51,8 +51,8 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 textarea:focus {outline: none;}
 
 /* =============================================================================
-   Typography
-   ========================================================================== */
+Typography
+========================================================================== */
 
 abbr[title] { border-bottom: 1px dotted; }
 
@@ -81,34 +81,34 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
 p {
-	margin-top:0;
-	line-height:22px;
-	margin-bottom:17px;
+margin-top:0;
+line-height:22px;
+margin-bottom:17px;
 }
 /* =============================================================================
-   Lists
-   ========================================================================== */
+Lists
+========================================================================== */
 
 ul, ol { margin: 1em 0; padding: 0 0 0 13px;}
 dd { margin: 0 0 0 40px; }
 /* =============================================================================
-   Embedded content
-   ========================================================================== */
+Embedded content
+========================================================================== */
 
 
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 img[align="left"] {
-    float: left;
-    margin: 0 1em 1em 0;
+float: left;
+margin: 0 1em 1em 0;
 }
 img[align="right"] {
-    float: right;
-    margin: 0 0 1em 1em;
+float: right;
+margin: 0 0 1em 1em;
 }
 
 /* =============================================================================
-   Tables
-   ========================================================================== */
+Tables
+========================================================================== */
 
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; line-height: normal;}
@@ -118,51 +118,49 @@ td { vertical-align: top; line-height: normal;}
 
 --------------------------------------------------------- */
 .fleft {
-	float:left;
+float:left;
 }
 .fright {
-	float:right;
+float:right;
 }
 .list, .list  ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	list-style-image: none;
+list-style-type: none;
+padding: 0;
+margin: 0;
+list-style-image: none;
 }
 
 @font-face {
-	font-family: 'SegoeUI-Regular';
-	src: url('../font/SegoeUI-Regular.eot');
-	src: url('../font/SegoeUI-Regular.eot?#iefix') format('embedded-opentype'),
+font-family: 'SegoeUI-Regular';
+src: url('../font/SegoeUI-Regular.eot');
+src: url('../font/SegoeUI-Regular.eot?#iefix') format('embedded-opentype'),
 
-		 url('../font/SegoeUI-Regular.woff') format('woff'),
+	 url('../font/SegoeUI-Regular.woff') format('woff'),
 
-		 url('../font/SegoeUI-Regular.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
+	 url('../font/SegoeUI-Regular.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
 }
 
 @font-face {
-	font-family: 'SegoeUI-Light';
-	src: url('../font/SegoeUI-Light.eot');
-	src: url('../font/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+font-family: 'SegoeUI-Light';
+src: url('../font/SegoeUI-Light.eot');
+src: url('../font/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
 
-		 url('../font/SegoeUI-Light.woff') format('woff'),
+	 url('../font/SegoeUI-Light.woff') format('woff'),
 
-		 url('../font/SegoeUI-Light.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
+	 url('../font/SegoeUI-Light.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
 }
 @font-face {
-	font-family: 'SegoeUI-Bold';
-	src: url('../font/SegoeUI-Bold.eot');
-	src: url('../font/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
-
-		 url('../font/SegoeUI-Bold.woff') format('woff'),
-
-		 url('../font/SegoeUI-Bold.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
+font-family: 'SegoeUI-Bold';
+src: url('../font/SegoeUI-Bold.eot');
+src: url('../font/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+	 url('../font/SegoeUI-Bold.woff') format('woff'),
+	 url('../font/SegoeUI-Bold.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
 }
 html,body{margin: 0;padding: 0;height: 100%;}
 .clr{clear: both;}
@@ -171,64 +169,20 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .g-row2{width: 1030px;margin: 0 auto;}
 .b-vert{display: table-cell;width: inherit;height: inherit;position: relative;vertical-align: middle;}
 .wrp{width: 1280px;margin:0 auto;background: #fff; }
-.btn{
-	background: #cd2206;
-	height: 39px;
-	padding: 0 25px;
-	color: #fff;
-	border:0;
-	border-bottom: 4px solid #7f2112;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font:bold 18px/39px  'Roboto', sans-serif;
-	text-decoration: none;
-	display: inline-block;
-	    text-transform: uppercase;
-}
+.btn{background: #cd2206;height: 39px;padding: 0 25px;color: #fff;border:0;border-bottom: 4px solid #7f2112;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;font:bold 18px/39px  'Roboto', sans-serif;text-decoration: none;display: inline-block;text-transform: uppercase;}
 .btn:hover{color:#000;}
-.menu-right{
-	opacity: 0;
-	position: fixed;
-	right: 0;
-	top: 30%;
-	width: 106px;
-	height: 98px;
-	background: #f59f25;
-	text-align: center;
-	z-index: 20;
-}
-.opac{
-	opacity: 1;
-	-webkit-transition:.5s;
-	-moz-transition:.5s;
-	transition:.5s;
-}
-.menu-right a{
-	color: #000;
-	font:bold 14px/28px 'SegoeUI-Bold', sans-serif;
-	text-transform: uppercase;	
-}
-.menu-right a img{
-	margin-left: 5px;
-	opacity: 0;
-}
-.menu-right .act a{
-	color: #aa7324;
-}
-.menu-right .act img{
-	opacity: 1;
-}
+.menu-right{opacity: 0;position: fixed;right: 0;top: 30%;width: 106px;height: 98px;background: #f59f25;text-align: center;z-index: 20;}
+.opac{opacity: 1;-webkit-transition:.5s;-moz-transition:.5s;transition:.5s;}
+.menu-right a{color: #000;font:bold 14px/28px 'SegoeUI-Bold', sans-serif;text-transform: uppercase;	}
+.menu-right a img{margin-left: 5px;opacity: 0;}
+.menu-right .act a{color: #aa7324;}
+.menu-right .act img{opacity: 1;}
 /*header*/
-.main-header{background: url(../i/header.png) no-repeat;width: 1280px;height: 810px;position: relative;}
+.main-header{background: url(../i/header.jpg) no-repeat;width: 1280px;height: 810px;position: relative;}
 .main-header:after{content: '';display: table;clear: both;}
 /*menu*/
 .main-nav{width: 100%;height: 100px;background: #000;position: relative; display: table;}
-.locked{
-	position:fixed;
-	z-index: 10;
-	width: 1280px;
-}
+.locked{position:fixed;z-index: 10;width: 1280px;}
 .main-nav .logo{width: 180px;float: left;}
 .main-nav .slogan{width: 370px;float: left;  border-left:1px solid #cd2206; margin-right: 50px;}
 .main-nav .slogan p{color: #fff; font:300 18px/24px  'Roboto', sans-serif; margin: 0; margin-left: 20px;}
@@ -245,44 +199,15 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .main-header .director{position: absolute;right: 340px;}
 .main-header .director p{color: #fff; font:300 14px/24px  'Roboto', sans-serif; }
 .main-header .director span{font-weight: bold;}
-.main-header .arrow{ position: absolute; left: 50%; margin-left: -29px; bottom: 40px;}
+.main-header .arrow{ position: absolute; left: 50%; margin-left: -29px; bottom: 40px;z-index: 9;}
 /**/
 
 /*we-help-you*/
 .block-1{position: relative; text-align: center;}
-.block-1:before{
-	content: '';
-	position: absolute;
-	top: -157px;
-	left: 0;
-	background: url(../i/block-1-before.png) no-repeat;
-	width: 1280px;
-	height: 157px;
-}
-.step-1{
-	background: url(../i/step-1.png) no-repeat;
-	width: 125px;
-	height: 256px;
-	position: absolute;
-	left: 0;
-	top: 85px;
-}
-.step-2{
-	background: url(../i/step-2.png) no-repeat;
-	width: 125px;
-	height: 256px;
-	position: absolute;
-	left: 0;
-	top: 85px;
-}
-.step-3{
-	background: url(../i/step-3.png) no-repeat;
-	width: 125px;
-	height: 256px;
-	position: absolute;
-	left: 0;
-	top: 85px;
-}
+.block-1:before{content: '';position: absolute;top: -157px;left: 0;background: url(../i/block-1-before.png) no-repeat;width: 1280px;height: 157px;}
+.step-1{background: url(../i/step-1.png) no-repeat;width: 125px;height: 256px;position: absolute;left: 0;top: 85px;}
+.step-2{background: url(../i/step-2.png) no-repeat;width: 125px;height: 256px;position: absolute;left: 0;top: 85px;}
+.step-3{background: url(../i/step-3.png) no-repeat;width: 125px;height: 256px;position: absolute;left: 0;top: 85px;}
 .block-1:after{content: '';display: table;clear: both;}
 .why{ overflow: hidden; margin-bottom: 50px;}
 .why h4{color: #000; font:300 18px/24px  'Roboto', sans-serif; }
@@ -290,11 +215,7 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .why p{color: #000; font:normal 18px/30px  'SegoeUI-Bold', sans-serif; text-transform: uppercase;}
 .why .b-num{color: #000; font:normal 18px/30px  'SegoeUI-Bold', sans-serif; text-transform: uppercase;}
 .why #num{color: #000; font:bold 36px/48px  'SegoeUI-Bold', sans-serif; text-transform: uppercase; position: relative;width: 210px;margin: 0 auto;top: 70px;left: -70px;}
-.why #num:before{
-	content: '>';
-	position: absolute;
-	left: 0;
-}
+.why #num:before{content: '>';position: absolute;left: 0;}
 .why h2>span{color: #cd2206; font:bold 24px/46px  'Roboto', sans-serif; text-transform: uppercase;}
 .why .hy{border:1px solid #dedede;padding: 50px 0 0}
 .why .hy h3{color: #000; font:bold 24px/50px  'Roboto', sans-serif; text-transform: uppercase; margin: 20px auto;}
@@ -302,12 +223,7 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .why .hy p span{color: #cd2206; font-weight: bold;}
 .why .hy h4{ color: #000; font:bold 18px/30px  'SegoeUI-Bold', sans-serif; text-transform: uppercase; }
 
-.shares{
-	background: url(../i/shares-bg.jpg) no-repeat;
-	height: 429px;
-	text-align: center;
-	width: 1280px;
-}
+.shares{background: url(../i/shares-bg.jpg) no-repeat;height: 429px;text-align: center;width: 1280px;}
 .shares h2{color: #fff; font:bold 24px/36px  'Roboto', sans-serif; text-transform: uppercase;}
 .shares p{color: #000;font:bold 24px/36px  'Roboto', sans-serif;}
 .shares p span{color: #fff;}
@@ -318,12 +234,7 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .shares .btn:hover{color: #000;}
 .shares p>strong{ color: #fff;font:bold 14px/24px  'Roboto', sans-serif;text-transform: uppercase;}
 
-.steps{
-	background: #f59f25;
-	width: 1280px;
-	height: 500px;
-	position: relative;
-}
+.steps{background: #f59f25;width: 1280px;height: 500px;position: relative;}
 .steps h2{color: #fff; font:bold 24px/36px  'Roboto', sans-serif; text-transform: uppercase;}
 .steps h2>span{ text-transform: none;}
 
@@ -331,21 +242,9 @@ html,body{margin: 0;padding: 0;height: 100%;}
 .steps-ul .steps-i{ color: #fff; font:bold 36px/50px  'SegoeUI-Bold', sans-serif; text-transform: uppercase; vertical-align: bottom;}
 .steps-ul h3{color: #000;font:bold 14px/24px  'Roboto', sans-serif; }
 .steps-ul p{color: #000; font:300 14px/26px  'SegoeUI-Regular', sans-serif; text-transform:  none;}
-.scroll{
-width:960px;
-height:330px;
-overflow-x:scroll;
-overflow-y:hidden;
-margin: 0 auto;
-}
-.steps-ul{
-width:99999px;
-}
-.steps-ul > li{
-float:left;
-width:300px;
-height: 300px;
-}
+.scroll{width:960px;height:330px;overflow-x:scroll;overflow-y:hidden;margin: 0 auto;}
+.steps-ul{width:99999px;}
+.steps-ul > li{float:left;width:300px;height: 300px;}
 
 .conditions .scene > div.clouds {width:131px;height:127px;left:0;top:90px;background:url(../i/t1.png) no-repeat center;}
 .conditions{position: relative;}
@@ -366,22 +265,13 @@ height: 300px;
 .knob p span{color: #fff;}
 .knob p>strong{ color: #fff;font:bold 14px/24px  'Roboto', sans-serif;text-transform: uppercase;}
 .knob .btn{color: #fff;font:bold 30px/67px  'Roboto', sans-serif;height: 67px;
--webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;margin:25px 0; border-bottom: 7px solid #7f2112;
-}
+-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;margin:25px 0; border-bottom: 7px solid #7f2112;}
 .knob .btn:hover{color: #000;}
 /**/
 
 /**/
 .block-2{position: relative; text-align: center;}
-.block-2:before{
-	content: '';
-	position: absolute;
-	top: -157px;
-	left: 0;
-	background: url(../i/block-1-before.png) no-repeat;
-	width: 1280px;
-	height: 157px;
-}
+.block-2:before{content: '';position: absolute;top: -157px;left: 0;background: url(../i/block-1-before.png) no-repeat;width: 1280px;height: 157px;}
 .block-2:after{content: '';display: table;clear: both;}
 .benefits {overflow: hidden;}
 .benefits h4 {color: #000;font: 300 18px/24px 'Roboto', sans-serif;}
@@ -396,10 +286,7 @@ height: 300px;
 .bc-txt{text-align: left;float: left;width: 410px;margin-right: 30px;}
 .bc-txt h3{color: #000; font:bold 14px/26px  'SegoeUI-Bold', sans-serif; text-transform: uppercase;}
 .bc-txt p{color: #000; font:300 14px/26px  'SegoeUI-Light', sans-serif; text-transform:  none;}
-.bc-txt:last-child{
-	margin-right: 0;
-	margin-top: 54px;
-}
+.bc-txt:last-child{margin-right: 0;margin-top: 54px;}
 .bc-img{float: left;width: 430px;}
 .baza-clients .hy {border: 1px solid #dedede;padding: 40px 0; margin-bottom: 50px;}
 .baza-clients .hy h3 {color: #000;font: bold 24px/50px 'Roboto', sans-serif;text-transform: uppercase;margin: 20px auto;}
@@ -408,9 +295,7 @@ height: 300px;
 .ywnb h2{color: #fff;  font: bold 24px/36px 'Roboto', sans-serif; text-transform: uppercase;margin-bottom: 30px;}
 .ywnb p{ color: #000;  font: bold 24px/36px 'Roboto', sans-serif;}
 .ywnb p span{color: #fff;}
-.ywnb img{
-	margin: 20px 35px;
-}
+.ywnb img{margin: 20px 35px;}
 
 .block-2 .conditions-box{width: 650px;}
 .block-2 .conditions-box p{width: 690px;margin: 0 auto;}
@@ -433,15 +318,7 @@ height: 300px;
 
 /**/
 .block-3{position: relative; text-align: center;}
-.block-3:before{
-	content: '';
-	position: absolute;
-	top: -157px;
-	left: 0;
-	background: url(../i/block-1-before.png) no-repeat;
-	width: 1280px;
-	height: 157px;
-}
+.block-3:before{content: '';position: absolute;top: -157px;left: 0;background: url(../i/block-1-before.png) no-repeat;width: 1280px;height: 157px;}
 .block-3:after{content: '';display: table;clear: both;}
 .iip{overflow: hidden;}
 .iip h4 {color: #000;font: 300 18px/24px 'Roboto', sans-serif;}
@@ -456,87 +333,27 @@ height: 300px;
 
 /**/
 .main-footer{position: relative; text-align: center;}
-.main-footer:before{
-	content: '';
-	position: absolute;
-	top: -157px;
-	left: 0;
-	background: url(../i/block-1-before.png) no-repeat;
-	width: 1280px;
-	height: 157px;
-}
+.main-footer:before{content: '';position: absolute;top: -157px;left: 0;background: url(../i/block-1-before.png) no-repeat;width: 1280px;height: 157px;}
 .main-footer:after{content: '';display: table;clear: both;}
 .mf-c:after{content: '';display: table;clear: both;}
-.mf-txt{
-	text-align: left;
-	width: 560px;
-}
+.mf-txt{text-align: left;width: 560px;}
 .mf-txt h3{color: #000;font:bold 18px/24px 'Roboto', sans-serif;}
 .mf-txt p{color: #000; font:300 18px/30px  'SegoeUI-Light', sans-serif; position: relative;}
-.mf-txt p img{
-	position: absolute;
-	top: -20px;
-}
-.mf-img{width: 410px;}
-
-.bid{
-	border:9px solid #f59f25;
-	width: 851px;
-	padding: 50px;
-	margin: 0 auto 40px;
-	text-align: left;
-}
+.mf-txt p img{position: absolute;top: -20px;}.mf-img{width: 410px;}
+.bid{border:9px solid #f59f25;width: 851px;padding: 50px;margin: 0 auto 40px;text-align: left;}
 .bid h2{color: #f59f25;font:bold 24px/36px 'Roboto', sans-serif; text-transform: uppercase;text-align: center;}
 .bid table{margin-left: 70px;}
 .bid table td p{color: #000;font:bold 18px/36px 'Roboto', sans-serif; text-transform: uppercase;}
-.phone-s{
-	text-align: center;
-	color: #000;font:bold 14px/24px 'Roboto', sans-serif;
-	margin: 50px 0;
-}
-#phone{
-	border:0;
-	border-bottom: 5px solid #f59f25;
-	padding: 0 25px;
-	margin-left: 25px;
-	color: #000;font:300 14px/24px 'Roboto', sans-serif;
-}
-.btn-bid{
-	width: 448px;
-	height: 67px;
-	margin: 0 auto;
-	color: #fff;font:bold 30px/58px 'Roboto', sans-serif;
-	border-bottom: 7px solid #7f2112;
-	display: block;
-	    text-transform: uppercase;
-}
-.red{
-	color: #cd2206;
-	font:bold 14px/24px 'Roboto', sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-}
-.map{
-	position: relative;
-	width: 1280px;
-	height: 490px;
-}
-.m-c{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	background: rgba(255,255,255,.5);
-	display: table;
-}
-.m-c p{
-	font:300 18px/24px 'Roboto', sans-serif;
-}
-.m-c strong{
-	font:bold 18px/24px 'Roboto', sans-serif;
-}
- /*style chekbox*/
- /* Cначала обозначаем стили для IE8 и более старых версий
+.phone-s{text-align: center;color: #000;font:bold 14px/24px 'Roboto', sans-serif;margin: 50px 0;}
+#phone{border:0;border-bottom: 5px solid #f59f25;padding: 0 25px;margin-left: 25px;color: #000;font:300 14px/24px 'Roboto', sans-serif;}
+.btn-bid{width: 448px;height: 67px;margin: 0 auto;color: #fff;font:bold 30px/58px 'Roboto', sans-serif;border-bottom: 7px solid #7f2112;display: block;text-transform: uppercase;}
+.red{color: #cd2206;font:bold 14px/24px 'Roboto', sans-serif;text-transform: uppercase;text-align: center;}
+.map{position: relative;width: 1280px;height: 490px;}
+.m-c{position: absolute;width: 100%;height: 100%;z-index: 1;background: rgba(255,255,255,.5);display: table;}
+.m-c p{font:300 18px/24px 'Roboto', sans-serif;}
+.m-c strong{font:bold 18px/24px 'Roboto', sans-serif;}
+/*style chekbox*/
+/* Cначала обозначаем стили для IE8 и более старых версий
 т.е. здесь мы немного облагораживаем стандартный чекбокс. */
 .checkbox {width: 20px;height: 19px;vertical-align: top;margin: 0;}
 /* Это для всех браузеров, кроме совсем старых, которые не поддерживают
@@ -553,9 +370,7 @@ height: 300px;
 /* Меняем фон чекбокса, когда он включен. ✔*/
 .checkbox:checked + label:before {content: '✔';color: #f59f25;font-size: 22px;line-height: 20px;padding-left: 0px;overflow: hidden;width: 20px;height: 19px;
 }
-.checkbox:checked + label{
-	color: #f59f25;
-}
+.checkbox:checked + label{color: #f59f25;}
 /* Сдвигаем переключатель чекбокса, когда он включен. */
 .checkbox:checked + label:after {left: 0;}
 /* Показываем получение фокуса. */
@@ -563,7 +378,7 @@ height: 300px;
 /*  box-shadow: 0 0 0 3px rgba(44, 158, 248,.3);*/
 }
 
- /**/
+/**/
 .scene{position: relative;}
 .scene > div {position:absolute;top:0;}
 .ground {width:100%;height:30px;z-index:9;}
@@ -580,8 +395,4 @@ height: 300px;
 .scene2 div.kopilka {width:329px;height:278px;z-index:6;right:-90px;top: 200px;background:url(../i/kopilka.png) no-repeat center;}
 /**/
 
-#result{
-	width: 400px;
-	height: 300px;
-	background: rgba(0,0,0,.5)
-}
+#result{width: 400px;height: 300px;background: rgba(0,0,0,.5)}

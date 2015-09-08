@@ -123,18 +123,9 @@ $(function(){
 
     $('.bx-clients').bxSlider({
         auto:1,
-        pause:1000
+        pause:10000
     })
 
-    //  $('.steps-ul').bxSlider({
-    //     auto:1,
-    //     pause:5000,
-    //     minSlides: 2,
-    //     maxSlides: 3,
-    //     slideWidth: 300,
-    //     slideMargin: 50,
-    //     moveSlides: 1
-    // })
     $('.popap_box').click(function() {
         $('#modalbox_' + $(this).data('body')).arcticmodal();
     });
@@ -151,32 +142,3 @@ $(function(){
       //Установка ширины дочернего Div "<div class="scroll_child">"
       $(".scroll_child").width(widthScroll);
 })
-
-/**/
-    // ymaps.ready(function () {
-    // var myMap = new ymaps.Map('map', {
-    //         center: [51.13620429, 71.43457050],
-    //         zoom: 15,
-    //         controls: ['zoomControl']
-    //     }, {
-    //         searchControlProvider: 'yandex#search'
-    //     }),
-    //     myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-    //         hintContent: 'Петрит'
-    //     }, {
-    //         // Опции.
-    //         // Необходимо указать данный тип макета.
-    //         iconLayout: 'default#image',
-    //         // Своё изображение иконки метки.
-    //         //iconImageHref: 'upload/na_karte2.png',
-    //         // Размеры метки.
-    //         iconImageSize: [40, 40],
-    //         // Смещение левого верхнего угла иконки относительно
-    //         // её "ножки" (точки привязки).
-    //         iconImageOffset: [-20, -57]
-            
-    //     });
-    // myMap.behaviors.disable('scrollZoom');
-    // myMap.geoObjects.add(myPlacemark);
-    // });
-    /**/
